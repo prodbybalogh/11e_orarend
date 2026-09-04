@@ -1,3 +1,19 @@
+body{
+    background-color: grey;
+}
+
+.infok{
+text-align: center;
+font-weight: bold;
+margin-top: 20px;
+}
+
+.orarend{
+    position: absolute;
+    left: 300px;
+    border: solid 2px black;
+}
+
 nav{
     justify-content: center;
     background-color: black;
