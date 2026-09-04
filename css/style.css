@@ -50,3 +50,7 @@ nav{
     border-radius: 20px;
     text-decoration: none;
 }
+
+table, th, td{
+    border: 1px solid black;
+}
