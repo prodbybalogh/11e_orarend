@@ -1,16 +1,17 @@
 body{
-    background-color: grey;
+    background-color: gray;
 }
 
 .infok{
-text-align: center;
-font-weight: bold;
-margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
 }
 
 .orarend{
     position: absolute;
-    left: 300px;
+    left: 5px;
+    right: 5px;
     border: solid 2px black;
 }
 
@@ -53,4 +54,65 @@ nav{
 
 table, th, td{
     border: 1px solid black;
+}
+
+#ora{
+    position: relative;
+    height: 80px;
+    width: 150px;
+}
+
+#csoport{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 13px;
+}
+
+#tantargy{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#terem{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font-size: 13px;
+}
+
+#tanar{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 13px;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+
+th, td{
+    width: 20%;
+    background-color: darkgray;
+}
+
+th:first-child,
+td:first-child{
+    width: 5%;
+}
+
+th{
+    text-align: center;
+}
+
+#het{
+    font-size: 30px;
+}
+
+a{
+    color: darkblue;
 }
