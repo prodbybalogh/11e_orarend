@@ -97,7 +97,7 @@ table{
 
 th, td{
     width: 20%;
-    background-color: darkgray;
+    background-color: rgb(209, 209, 209);
 }
 
 th:first-child,
@@ -115,4 +115,8 @@ th{
 
 a{
     color: darkblue;
+}
+
+#sotet{
+    background-color: rgb(180, 180, 180);
 }
