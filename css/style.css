@@ -120,3 +120,10 @@ a{
 #sotet{
     background-color: rgb(180, 180, 180);
 }
+
+#turrlogo{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    right: 5px;
+}
