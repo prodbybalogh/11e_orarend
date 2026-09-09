@@ -9,10 +9,14 @@ body{
 }
 
 .orarend{
-    position: absolute;
-    left: 5px;
-    right: 5px;
-    border: solid 2px black;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.orarend table{
+    width: 100%;
+    min-width: 1600px;
+    table-layout: fixed;
 }
 
 nav{
@@ -56,47 +60,41 @@ table, th, td{
     border: 1px solid black;
 }
 
-#ora{
+.ora{
     position: relative;
     height: 80px;
     width: 150px;
 }
 
-#csoport{
+.csoport{
     position: absolute;
     top: 5px;
     right: 5px;
     font-size: 13px;
 }
 
-#tantargy{
+.tantargy{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-#terem{
+.terem{
     position: absolute;
     bottom: 5px;
     left: 5px;
     font-size: 10px;
 }
 
-#tanar{
+.tanar{
     position: absolute;
     bottom: 5px;
     right: 5px;
     font-size: 10px;
 }
 
-table{
-    width: 100%;
-    table-layout: fixed;
-}
-
 th, td{
-    width: 20%;
     background-color: rgb(209, 209, 209);
 }
 
