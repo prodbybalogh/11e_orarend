@@ -94,13 +94,13 @@ table, th, td{
     font-size: 10px;
 }
 
-th, td{
-    background-color: rgb(209, 209, 209);
+td{
+    background-color: rgb(189, 186, 186);
 }
 
 th:first-child,
 td:first-child{
-    width: 5%;
+    width: 7%;
 }
 
 th{
@@ -113,10 +113,6 @@ th{
 
 a{
     color: darkblue;
-}
-
-#sotet{
-    background-color: rgb(180, 180, 180);
 }
 
 #turrlogo{
