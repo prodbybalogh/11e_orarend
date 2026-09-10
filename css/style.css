@@ -94,7 +94,7 @@ table, th, td{
     font-size: 10px;
 }
 
-td{
+td, th{
     background-color: rgb(189, 186, 186);
 }
 
@@ -120,4 +120,8 @@ a{
     width: 150px;
     height: 100px;
     right: 5px;
+}
+
+#sotet{
+    background-color: rgb(187, 187, 187);
 }
